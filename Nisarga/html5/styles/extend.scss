@@ -1,0 +1,54 @@
+h1{
+    color:red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  h1#headone{
+      @extend h1;
+      background-color: rebeccapurple;
+      
+  }
+  h2{
+      text-decoration: underline;
+  }
+  h2#headtwo{
+      @extend h2;
+      background-color: blue;
+  }
+  h3#headthree{
+      @extend h2 ;
+      @extend h1 ;
+      background-color: rebeccapurple;
+      
+  }
+
+  p{
+      background-color:orchid;
+      font-size: 25px;
+  }
+
+  p.blog{
+      @extend p;
+      color: brown;
+      
+      
+
+  }
+
+  p.main{
+      @extend p;
+      color: red;
+      background-color: sandybrown;
+
+  }
+
+  p.sub{
+      @extend p;
+      color: silver;
+  }
+
+  p.end{
+      @extend p;
+      background-color: springgreen;
+  }

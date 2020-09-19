@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function call(){
+            if(confirm("You want to leave?")){
+                alert("Bye");
+                document.myform.submit();
+
+            }
+            else{
+                alert("Thanks for staying back");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myform" action="flag.html">
+    Enter comments<textarea id="comments"></textarea>
+    <input type="button" onclick="call()" value="click">
+
+    </form>
+</body>
+</html>

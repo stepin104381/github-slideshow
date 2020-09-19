@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: green;
+        }
+        h1{
+            background-color:greenyellow;
+        }
+
+        h1,h1,p{
+            letter-spacing: 3px;
+        }
+        .check{
+            color: hotpink;
+            text-transform: uppercase;
+        }
+
+        #header{
+            text-decoration: underline;
+        }
+
+        a:link{
+            color: green;
+        }
+        a:visited{
+            color:red;
+        }
+
+        a:active{
+            color: orangered;
+        }
+
+        a:hover{
+            text-transform: uppercase;
+            font-stretch: wider;
+            color: seagreen;
+        }
+
+        ul#cartoon li{
+            text-transform: uppercase;
+            color: springgreen;
+        }
+
+        ul li:first-child{
+            color: red;
+        }
+
+        ol li{
+            color: blueviolet;
+        }
+        li#course{
+            letter-spacing: 2px;
+        }
+        ul#cartoon li:first-child{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <p class="check" >Inside p with class</p>
+	<p> Inside P without class </p>
+	
+	<div class="check">Inside a DIV with class</div>
+	<div>Inside a div tag without class</div>
+	
+	<h1 class="check">Inside H1 with class</h1>
+	<h1 id="header"> Inside H1 without class </p>
+	
+	<h2 class="check">Inside H2 with class</h2>
+    <h2>  Inside H2 without class </h2>
+    
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.gmail.com">Gmail</a>
+
+    <ul style="list-style-type: square;">
+		<li>Mango</li>
+		<li>Apple</li>
+		<li>Orange</li>
+	</ul>
+
+	<ol style="list-style-type: upper-alpha;">
+		<li id="course">Java</li>
+		<li>Html</li>
+		<li>CSS</li>
+	</ol>
+
+	<ul style="list-style-type: none;" id="cartoon">
+		<li>Tom</li>
+		<li>Mickey</li>
+		<li >Donald</li>
+	</ul>
+
+</body>
+</html>

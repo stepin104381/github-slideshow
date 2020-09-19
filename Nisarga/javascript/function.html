@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       
+        function greet(username)
+        {
+            
+            var username=document.getElementById("username").value;
+            document.getElementById('myid').innerHTML
+            = "Have a great day "+username;
+
+           // document.write('have a great day ',username);
+           // alert('hello '+username);
+        }
+        //greet('nisarga');
+
+        //function expression
+
+      /*  var check=function(){
+            document.write('Great');
+        }
+
+        check();*/
+       
+    </script>
+</head>
+<body>
+    <input type="text" id="username">
+    <input type="text" onkeyup="greet()">
+    <input type="button" onclick="greet()" value="click" name="click">
+    <div id="myid" style="background-color:coral;"></div> 
+</body>
+</html>

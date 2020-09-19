@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="form.html">
+        <h2>Datalist</h2>
+        Choose city<input list="city" name="mcity"/>
+        <datalist id="city">
+            <option value="coorg"/>
+            <option value="mysore"/>
+            <option value="pune"/>
+            <option value="ooty"/>
+</datalist>
+<h2>Select</h2>
+<select name="city">
+    <option value="coorg"/>coorg
+    <option label="mysore" value="mysore"/>
+    <option value="pune"/>
+    <option value="ooty"/>
+    </select>
+    <br>
+    <br>
+    <br>
+
+    <form>
+<input type="number" name="num1">
+<input type="number" name="num2">
+<input type="button" value="Add"
+onclick="result.value=parseInt(num1.value)+parseInt(num2.value)">
+<output name="result"></output>
+
+
+    </form>
+</body>
+</html>
